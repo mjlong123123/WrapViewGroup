@@ -3,41 +3,97 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <view.dragon.com.wrapviewgroup.WrapViewGroup
+    <view.dragon.com.wrapviewgroup.Wrap2ViewGroup
+        android:id="@+id/wrap2Group"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_bright">
+        android:background="@android:color/darker_gray">
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="11111111111"/>
+            android:text="11111111111" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="22222222222222222"/>
+            android:text="22222222222222222" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="33333"/>
+            android:text="33333" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="444444444444"/>
+            android:text="444444444444" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="55555555555"/>
+            android:text="55555555555" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="666666666666666666666666666"/>
+            android:text="666666666666666666666666666" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="7777777777777777777"/>
+            android:text="7777777777777777777" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="888888888"/>
+            android:text="888888888" />
+    </view.dragon.com.wrapviewgroup.Wrap2ViewGroup>
+
+    <view.dragon.com.wrapviewgroup.WrapViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_below="@+id/wrap2Group">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11111111111" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22222222222222222" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="33333" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="444444444444" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="55555555555" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="666666666666666666666666666" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7777777777777777777" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="888888888" />
     </view.dragon.com.wrapviewgroup.WrapViewGroup>
 </RelativeLayout>
